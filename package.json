@@ -1,0 +1,21 @@
+{
+  "name": "midnight-grove",
+  "displayName": "Midnight Grove",
+  "description": "A forest-inspired dark theme with deep green backgrounds, soft purple accents, and natural tones designed for comfortable coding and clear syntax.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Midnight Grove",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Midnight Grove-color-theme.json"
+      }
+    ]
+  }
+}
