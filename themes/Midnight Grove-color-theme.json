@@ -272,7 +272,7 @@
 			"name": "Comment",
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
-				"foreground": "#6E8B80",
+				"foreground": "#5F7A70",
 				"fontStyle": "italic"
 			}
 		},
@@ -280,13 +280,13 @@
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#ecc48d"
+				"foreground": "#E6B97A"
 			}
 		},
 		{
 			"name": "String Quoted",
 			"scope": ["string.quoted"],
-			"settings": { "foreground": "#ecc48d" }
+			"settings": { "foreground": "#E6B97A" }
 		},
 		{
 			"name": "Support Constant Math",
@@ -299,7 +299,7 @@
 			"name": "Number",
 			"scope": ["constant.numeric", "constant.character.numeric"],
 			"settings": {
-				"foreground": "#F78C6C",
+				"foreground": "#F08464",
 				"fontStyle": ""
 			}
 		},
@@ -506,7 +506,7 @@
 			"name": "Keyword Operator",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#E0FBFC80",
+				"foreground": "#E0FBFCB3",
 				"fontStyle": ""
 			}
 		},
@@ -570,7 +570,7 @@
 			"name": "Null",
 			"scope": "constant.language.null",
 			"settings": {
-				"foreground": "#2FBF9F"
+				"foreground": "#F08464"
 			}
 		},
 		{
@@ -1385,7 +1385,7 @@
 			"name": "Specific JSON Property values like null",
 			"scope": "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
 			"settings": {
-				"foreground": "#2FBF9F"
+				"foreground": "#F08464"
 			}
 		},
 		{
@@ -1811,6 +1811,53 @@
 			"name": "Variables (JS)",
 			"scope": ["variable.other.readwrite.js"],
 			"settings": { "foreground": "#8BAF9B" }
+		},
+		{
+			"name": "YAML Keys",
+			"scope": [
+				"entity.name.tag.yaml",
+				"meta.key.yaml",
+				"string.unquoted.plain.out.yaml entity.name.tag.yaml"
+			],
+			"settings": { "foreground": "#8BAF9B" }
+		},
+		{
+			"name": "YAML String values",
+			"scope": [
+				"string.unquoted.plain.yaml",
+				"string.quoted.single.yaml",
+				"string.quoted.double.yaml"
+			],
+			"settings": { "foreground": "#E6B97A" }
+		},
+		{
+			"name": "YAML Numbers",
+			"scope": ["constant.numeric.yaml"],
+			"settings": { "foreground": "#F08464" }
+		},
+		{
+			"name": "YAML Booleans / Null",
+			"scope": [
+				"constant.language.boolean.yaml",
+				"constant.language.null.yaml"
+			],
+			"settings": { "foreground": "#2FBF9F" }
+		},
+		{
+			"name": "YAML Punctuation (:, -)",
+			"scope": [
+				"punctuation.separator.key-value.yaml",
+				"punctuation.definition.entry.yaml"
+			],
+			"settings": { "foreground": "#d6deeb" }
+		},
+		{
+			"name": "YAML Comments",
+			"scope": [
+				"comment.line.number-sign.yaml",
+				"punctuation.definition.comment.yaml"
+			],
+			"settings": { "foreground": "#5F7A70", "fontStyle": "italic" }
 		}
 	]
 }
