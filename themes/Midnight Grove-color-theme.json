@@ -1889,6 +1889,27 @@
 			"settings": {
 				"foreground": "#8BAF9B"
 			}
+		},
+		{
+			"name": "SQL Keywords",
+			"scope": [
+				"keyword.other.DDL.sql",
+				"keyword.other.DML.sql",
+				"keyword.other.sql",
+				"keyword.control.sql"
+			],
+			"settings": {
+				"foreground": "#5BD6D6",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "SQL Types",
+			"scope": ["storage.type.sql"],
+			"settings": {
+				"foreground": "#8BAF9B",
+				"fontStyle": ""
+			}
 		}
 	]
 }
