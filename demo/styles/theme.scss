@@ -1,0 +1,21 @@
+/* SCSS demo */
+$accent: #00C48C;
+$radius: 12px;
+
+@mixin card($pad: 12px) {
+  padding: $pad;
+  border-radius: $radius;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  @include card(16px);
+
+  &__title {
+    color: $accent;
+  }
+
+  &:hover {
+    filter: brightness(1.05);
+  }
+}

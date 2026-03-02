@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midnight Grove Demo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="app" data-theme="grove">
+    <!-- comment: html -->
+    <header id="top" class="header">
+      <h1>Midnight Grove <span class="tag">demo</span></h1>
+      <nav>
+        <a href="#features" aria-label="Features">Features</a>
+        <a href="https://example.com" target="_blank" rel="noreferrer">External</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="features">
+        <h2>Tokens</h2>
+        <p>
+          <strong>Bold</strong>, <em>italic</em>, <code>inline code</code>,
+          <mark>mark</mark> and <kbd>Ctrl</kbd>+<kbd>K</kbd>.
+        </p>
+
+        <button class="btn" disabled>Disabled</button>
+        <button class="btn btn--primary" data-count="42">Primary</button>
+
+        <pre><code class="language-js">const x = `template ${1 + 2}`; // code block</code></pre>
+      </section>
+
+      <svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" fill="none">
+        <path fill="currentColor" d="M10 10h100v20H10z"/>
+      </svg>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

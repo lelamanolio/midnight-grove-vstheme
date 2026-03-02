@@ -1,0 +1,7 @@
+query Demo($id: ID!) {
+  user(id: $id) {
+    id
+    name
+    roles
+  }
+}
