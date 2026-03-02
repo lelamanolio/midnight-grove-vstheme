@@ -1858,6 +1858,37 @@
 				"punctuation.definition.comment.yaml"
 			],
 			"settings": { "foreground": "#5F7A70", "fontStyle": "italic" }
+		},
+		{
+			"name": "Vue: object in directive expressions (props, state, etc.)",
+			"scope": [
+				"source.ts.embedded.html.vue variable.other.object.ts",
+				"source.js.embedded.html.vue variable.other.object.js",
+				"source.ts.embedded.html.vue variable",
+				"source.js.embedded.html.vue variable"
+			],
+			"settings": {
+				"foreground": "#d6deeb",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Vue: member property in directive expressions (after dot)",
+			"scope": [
+				"source.ts.embedded.html.vue variable.other.property.ts",
+				"source.js.embedded.html.vue variable.other.property.js"
+			],
+			"settings": {
+				"foreground": "#5BD6D6",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Vue: directive prefix punctuation (:, v-, @)",
+			"scope": ["meta.attribute.directive.vue punctuation"],
+			"settings": {
+				"foreground": "#8BAF9B"
+			}
 		}
 	]
 }
