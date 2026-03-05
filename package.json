@@ -8,6 +8,8 @@
     "url": "https://github.com/lelamanolio/midnight-grove-vstheme"
   },
   "homepage": "https://github.com/lelamanolio/midnight-grove-vstheme",
+  "publisher": "lela",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.80.0"
   },
