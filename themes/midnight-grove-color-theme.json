@@ -1,7 +1,7 @@
 {
 	"name": "Midnight Grove",
 	"type": "dark",
-	"semanticHighlighting": false,
+	"semanticHighlighting": true,
 	"colors": {
 		// generic (base, focus, borders)
 		"contrastBorder": "#0E1F18",

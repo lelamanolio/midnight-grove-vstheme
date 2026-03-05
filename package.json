@@ -1,20 +1,38 @@
 {
   "name": "midnight-grove",
   "displayName": "Midnight Grove",
-  "description": "A forest-inspired dark theme with deep green backgrounds, soft purple accents, and natural tones designed for comfortable coding and clear syntax.",
-  "version": "0.0.1",
+  "description": "A calm forest-inspired green dark theme for Visual Studio Code.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lelamanolio/midnight-grove-vstheme"
+  },
+  "homepage": "https://github.com/lelamanolio/midnight-grove-vstheme",
   "engines": {
-    "vscode": "^1.109.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+  "theme",
+  "dark theme",
+  "green theme",
+  "forest",
+  "midnight",
+  "developer theme",
+  "calm theme",
+  "coding theme",
+  "vscode theme",
+  "dark vscode theme"
+  ],
+  "icon": "icon_midnight_grove.png",
   "contributes": {
     "themes": [
       {
         "label": "Midnight Grove",
         "uiTheme": "vs-dark",
-        "path": "./themes/Midnight Grove-color-theme.json"
+        "path": "./themes/midnight-grove-color-theme.json"
       }
     ]
   }
