@@ -6,13 +6,13 @@ It uses deep greens and soft accent colors to create a calm coding environment w
 
 ## Highlights
 
-* Forest-inspired dark palette
-* Calm color balance designed to stay comfortable during long coding sessions
-* Clear syntax highlighting without overly saturated colors
-* Designed with modern web development in mind
-
+- Forest-inspired dark palette
+- Calm color balance designed to stay comfortable during long coding sessions
+- Clear syntax highlighting without overly saturated colors
+- Designed with modern web development in mind
 
 ## Preview
+
 ![Preview Editor](editor.png)
 ![Preview Vue](vue.png)
 ![Preview HTML](html.png)
@@ -20,10 +20,25 @@ It uses deep greens and soft accent colors to create a calm coding environment w
 
 ## Installation
 
+### From VS Code Marketplace
+
 1. Open **Extensions** in VS Code
 2. Search for `Midnight Grove`
 3. Click **Install**
-4. Activate it via Settings > Themes > Color Theme
+4. Activate it via **Preferences → Color Theme**
+
+---
+
+### From VSIX (Manual Install)
+
+1. Download the latest `.vsix` file from the [release section](https://github.com/lelamanolio/midnight-grove-vstheme/releases)
+2. Open VS Code or compatible editors
+3. Open the Command Palette (`Cmd + Shift + P` / `Ctrl + Shift + P`)
+4. Search for: `Extensions: Install from VSIX...`
+5. Choose the downloaded `.vsix` file
+6. Activate it via **Preferences → Color Theme**
+
+---
 
 ## Feedback
 
