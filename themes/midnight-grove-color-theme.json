@@ -1910,6 +1910,17 @@
 				"foreground": "#8BAF9B",
 				"fontStyle": ""
 			}
+		},
+		{
+			"name": "JS property",
+			"scope": ["variable.other.property.js", "variable.other.property.vue"],
+			"settings": {
+				"foreground": "#B8D6C7",
+				"fontStyle": "italic"
+			}
 		}
-	]
+	],
+	"semanticTokenColors": {
+		"property": "#7FE0B0"
+	}
 }
