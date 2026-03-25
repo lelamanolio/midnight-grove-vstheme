@@ -1,41 +1,41 @@
 {
-  "name": "midnight-grove",
-  "displayName": "Midnight Grove",
-  "description": "A calm forest-inspired green dark theme for Visual Studio Code.",
-  "version": "1.0.1",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lelamanolio/midnight-grove-vstheme"
-  },
-  "homepage": "https://github.com/lelamanolio/midnight-grove-vstheme",
-  "publisher": "lela",
-  "license": "MIT",
-  "engines": {
-    "vscode": "^1.80.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "theme",
-    "dark theme",
-    "green theme",
-    "forest",
-    "midnight",
-    "developer theme",
-    "calm theme",
-    "coding theme",
-    "vscode theme",
-    "dark vscode theme"
-  ],
-  "icon": "icon_midnight_grove.png",
-  "contributes": {
-    "themes": [
-      {
-        "label": "Midnight Grove",
-        "uiTheme": "vs-dark",
-        "path": "./themes/midnight-grove-color-theme.json"
-      }
-    ]
-  }
+	"name": "midnight-grove",
+	"displayName": "Midnight Grove",
+	"description": "A calm forest-inspired green dark theme for Visual Studio Code.",
+	"version": "1.0.2",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lelamanolio/midnight-grove-vstheme"
+	},
+	"homepage": "https://github.com/lelamanolio/midnight-grove-vstheme",
+	"publisher": "lela",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"dark theme",
+		"green theme",
+		"forest",
+		"midnight",
+		"developer theme",
+		"calm theme",
+		"coding theme",
+		"vscode theme",
+		"dark vscode theme"
+	],
+	"icon": "icon_midnight_grove.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Midnight Grove",
+				"uiTheme": "vs-dark",
+				"path": "./themes/midnight-grove-color-theme.json"
+			}
+		]
+	}
 }
